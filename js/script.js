@@ -23,16 +23,16 @@ cores.forEach(cor => {
         const datejustImg = document.querySelector("#rolex_cart");
         const datejustImg_1908 = document.querySelector("#rolex_cart_1908");
         if (cor.id === "verde_datejust") {
-            datejustImg.src = "../imgs/rolexs/datejust 36_verde.avif";
+            datejustImg.src = "imgs/rolexs/datejust 36_verde.avif";
         } else if (cor.id === "roxo_datejust") {
-            datejustImg.src = "../imgs/rolexs/datejust 36_roxo.avif";
+            datejustImg.src = "imgs/rolexs/datejust 36_roxo.avif";
         } else if (cor.id === "azul_datejust") {
-            datejustImg.src = "../imgs/rolexs/datejust 36_azul.avif";
+            datejustImg.src = "imgs/rolexs/datejust 36_azul.avif";
         }
         else if (cor.id === "marrom_1908") {
-            datejustImg_1908.src = "../imgs/rolexs/1908.avif";
+            datejustImg_1908.src = "imgs/rolexs/1908.avif";
         } else {
-            datejustImg_1908.src = "../imgs/rolexs/1908_preto.png";
+            datejustImg_1908.src = "imgs/rolexs/1908_preto.png";
         }
     });
 });
